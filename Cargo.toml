@@ -1,0 +1,9 @@
+[package]
+name = "cp2k-rs"
+authors = ["Niclas Klugmann <klugmann@mail.uni-paderborn.de>"]
+description = "A Rust port of CP2K"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.3", features = ["derive"] }
